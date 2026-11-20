@@ -1,0 +1,14 @@
+@"
+# Visual Studio build, cache, and NuGet package folders
+[Bb]in/
+[Oo]bj/
+[Pp]ackages/
+.vs/
+*.user
+*.suo
+*.cache
+
+# Temporary / editor files
+.idea/
+.vscode/
+"@ | Out-File -FilePath ".gitignore" -Encoding utf8
